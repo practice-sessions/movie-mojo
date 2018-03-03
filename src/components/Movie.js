@@ -6,7 +6,7 @@ class Movie extends Component {
     return (
       <div className="movie">
         <h2>{ this.props.title }</h2>
-      <div><img width="200" src={ this.props.poster } /></div>
+      <div><img width="200" src={ this.props.poster } alt="desc" /></div>
         <p>({ this.props.year })</p>
         <p>{ this.props.alt }</p>
       </div>
