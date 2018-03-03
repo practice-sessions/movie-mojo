@@ -1,4 +1,5 @@
-import Axios from 'axios';
+    /* global axios */
+var Axios = require("axios"); // eslint-disable-line no-unused-vars
 
 class ItemService {
   
